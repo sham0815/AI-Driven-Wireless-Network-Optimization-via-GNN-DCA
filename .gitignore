@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python compiled cache
+__pycache__/
+*.pyc
+
+# Large Datasets & Graph tensors
+dataset/
+dataset_v2/
+dataset_v2_1/
+graph_dataset/
+saved_models/
+
+# macOS system files
+.DS_Store
+# Extra safety shields
+*.pt
+*.dylib
+*.csv
